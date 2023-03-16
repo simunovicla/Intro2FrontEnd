@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html, body {
+font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
+    background: rgb(140, 158, 134);
+}
+canvas {
+  display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a#cuenta{
+  font-weight:Bold;
+
+  background:rgb(231, 226, 0);
+  color:black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 6px black;
+    padding:1rem 2rem;
+    border-radius: 10px;
+}
+
+a#cuenta:hover{
+    background:black;
+    color:white;
+    transition:all ease 1s;
+    top:51%;
+    box-shadow:1px 1px 10px black;
+}
+
+nav{
+    padding: 1rem;
+    color:beige;
+}
