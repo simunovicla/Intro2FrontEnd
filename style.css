@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+a#cuenta{
+  font-weight:Bold;
+  font-family:Helvetica, Arial,sans-serif;
+  background:rgb(116,33,33);
+  color:rgb(255,255,255);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
